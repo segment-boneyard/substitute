@@ -23,7 +23,7 @@ node_modules: package.json
 	@npm install
 
 server: kill
-	@$(S) . &> /dev/null & echo $$! test/pid
+	@$(S) . --no-less &> /dev/null & echo $$! test/pid
 	@sleep 1
 
 kill:
