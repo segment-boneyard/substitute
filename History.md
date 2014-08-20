@@ -1,5 +1,10 @@
 
+0.1.0 / 2014-08-20
+==================
+
+ * add array support
+
 0.0.1 / 2014-01-31
 ==================
 
- * Initial commit
+ * initial commit
